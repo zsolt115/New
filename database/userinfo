@@ -1,0 +1,8 @@
+CREATE TABLE userinfo (
+	tpkt_uid varchar(256) not null  PRIMARY KEY,
+	tpkt_cim varchar(256) not null,
+	tpkt_helyszin varchar(256) not null,
+	tpkt_leiras text not null,
+	tpkt_kep blob not null,
+	tpkt_kategoria varchar(256) not null
+);
